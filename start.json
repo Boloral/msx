@@ -1,6 +1,57 @@
-{    
-    "name": "Myav",
-    "version": "1.0.0",
-    "parameter": "menu:https://boloral.github.io/msx/data/menu.json",
-    "welcome": "none"
+{
+  "name": "Мурчикова лампоччка",
+    "type": "list",
+   "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+  "background": "https://gachi.gay/aEDEq", 
+  "headline": "Мурчикові лампочки",
+  "version": "0.1.9",
+  "parameter": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
+  "action": "[settings:validate_links:0|home]", 
+  "dictionary": "https://raw.githubusercontent.com/nekto966/msx/main/lang/ru.json",
+    "launcher": {
+        "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/noname.png"},
+   "template": {
+        "type": "separate",
+      "layout": "0,0,2,3",
+      "alignment":"title-center",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+		"title":"Lampa",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/lampa.jpg",
+          "action": "link:http://lampa.mx/"
+      },
+      {
+		"title":"Atodo",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/atodo.png",
+          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+      },
+      {
+		"title":"ICVA (Лампа ТВ)",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/icva.png",
+            "action": "link:http://icva.mx/"
+      },
+      {
+		"title":"Youtube",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/youtube.jpg",
+         "action": "link:http://www.youtube.com/tv#/"
+      },
+      {
+		"title":"Webvideocaster",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/Webvideocaster.png",
+          "action": "link:http://vewd.webvideocaster.com/"
+      },
+      {
+		"title":"Twitch",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/twitch.jpg",
+         "action": "link:http://webos.tv.twitch.tv/"
+      },
+      {
+		"title":"Информация",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/inf.png",
+            "background": "https://raw.githubusercontent.com/nekto966/msx/main/img/nnm_inf.jpg",
+            "action": "audio: https://raw.githubusercontent.com/nekto966/msx/main/noname.mp3"
+      }
+   ]
 }
