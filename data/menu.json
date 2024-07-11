@@ -1,4 +1,5 @@
 {
+    "name": "Мурчикова лампоччка",
     "type": "pages",
     "headline": "Apps",
     "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
