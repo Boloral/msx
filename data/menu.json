@@ -1,7 +1,7 @@
 {
     "headline": "Apps",
     "type": "pages"
-    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}"
     "pages": [
 	{    
             "type": "teaser",
