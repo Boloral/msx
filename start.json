@@ -1,57 +1,64 @@
 {
-  "name": "Мурчикова лампоччка",
-    "type": "list",
-   "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-  "background": "https://gachi.gay/aEDEq", 
-  "headline": "Мурчикові лампочки",
-  "version": "0.1.9",
-  "parameter": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
-  "action": "[settings:validate_links:0|home]", 
-  "dictionary": "https://raw.githubusercontent.com/nekto966/msx/main/lang/ru.json",
-    "launcher": {
-        "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/noname.png"},
-   "template": {
-        "type": "separate",
-      "layout": "0,0,2,3",
-      "alignment":"title-center",
-      "color": "msx-glass"
-   },
-   "items": [
-      {
-		"title":"Lampa",
-         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/lampa.jpg",
-          "action": "link:http://lampa.mx/"
-      },
-      {
-		"title":"Atodo",
-         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/atodo.png",
-          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
-      },
-      {
-		"title":"ICVA (Лампа ТВ)",
-            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/icva.png",
-            "action": "link:http://icva.mx/"
-      },
-      {
-		"title":"Youtube",
-         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/youtube.jpg",
-         "action": "link:http://www.youtube.com/tv#/"
-      },
-      {
-		"title":"Webvideocaster",
-         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/Webvideocaster.png",
-          "action": "link:http://vewd.webvideocaster.com/"
-      },
-      {
-		"title":"Twitch",
-         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/twitch.jpg",
-         "action": "link:http://webos.tv.twitch.tv/"
-      },
-      {
-		"title":"Информация",
-            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/inf.png",
-            "background": "https://raw.githubusercontent.com/nekto966/msx/main/img/nnm_inf.jpg",
-            "action": "audio: https://raw.githubusercontent.com/nekto966/msx/main/noname.mp3"
-      }
-   ]
+    "type": "pages",
+    "headline": "Types",
+    "pages": [{    
+            "items": [{
+                    "type": "teaser",
+                    "layout": "0,0,4,6",                   
+                    "badge": "Badge",                  
+                    "tag": "Tag",
+                    "tagColor": "msx-red",
+                    "titleHeader": "Teaser Header",
+                    "title": "Teaser",
+                    "titleFooter": "Teaser Footer",                 
+                    "image": "http://msx.benzac.de/img/test.jpg",
+                    "imageFiller": "height-left"
+                }, {
+                    "type": "button",
+                    "layout": "10,0,2,2",
+                    "label": "Button",                   
+                    "icon": "apps",
+                    "iconSize": "small"
+                }, {
+                    "type": "default",
+                    "layout": "4,3,4,2",
+                    "titleFooter": "Default Footer",
+                    "title": "Default",                   
+                    "image": "http://msx.benzac.de/img/test.jpg",
+                    "imageFiller": "width-center"                            
+                }, {
+                    "type": "default",
+                    "layout": "8,3,4,3",
+                    "titleFooter": "Default Footer",
+                    "title": "Default",                 
+                    "image": "http://msx.benzac.de/img/test.jpg",
+                    "imageFiller": "width-center",
+                    "imageHeight": 1.83
+                }, {
+                    "type": "default",
+                    "layout": "4,5,4,1",
+                    "titleFooter": "Default Footer",
+                    "title": "Default",                  
+                    "image": "http://msx.benzac.de/img/test.jpg",
+                    "imageFiller": "width-center",
+                    "imageWidth": 1.83
+                }, {
+                    "type": "space",                  
+                    "layout": "8,2,4,1", 
+                    "title": "Space",
+                    "titleFooter": "Space Footer"                  
+                }, {
+                    "type": "default",                 
+                    "layout": "8,0,2,2",             
+                    "headline": "Headline",
+                    "text": "Text Text Text Text Text Text Text Text."                                  
+                }, {
+                    "type": "separate",
+                    "layout": "4,0,4,3",
+                    "titleFooter": "Separate Footer",
+                    "titleHeader": "Separate Header",                    
+                    "image": "http://msx.benzac.de/img/test.jpg",                 
+                    "imageFiller": "width-center"
+                }]
+        }]
 }
