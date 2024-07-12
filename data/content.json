@@ -17,7 +17,7 @@
                     "type": "default",
                     "layout": "4,3,4,2",
                     "title": "Youtube",                   
-                    "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/youtube.jpg",
+                    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/youtube.png",
                     "imageFiller": "width-center",
 	            "action": "link:http://www.youtube.com/tv#/",
 	            "color": "rgb(29, 31, 32)"                            
