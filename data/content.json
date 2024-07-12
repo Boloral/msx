@@ -16,10 +16,10 @@
                 }, {
                     "type": "default",
                     "layout": "4,3,4,2",
-                    "title": "Twitch",                   
-                    "image": "https://pngimg.com/uploads/twitch/twitch_PNG48.png",
+                    "title": "Youtube",                   
+                    "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/youtube.jpg",
                     "imageFiller": "width-center",
-	            "action": "link:http://webos.tv.twitch.tv/",
+	            "action": "link:http://www.youtube.com/tv#/",
 	            "color": "rgb(29, 31, 32)"                            
                 }, {
                     "type": "default",
@@ -34,7 +34,7 @@
                     "layout": "4,5,4,1",
                     "titleFooter": "Phone",
                     "title": "WebVideoCaster",                  
-                    "image": "https://gachi.gay/TxSG3",
+                    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/webvideo.png",
 		    "action": "link:http://vewd.webvideocaster.com/",
                     "imageFiller": "width-center",
                     "imageWidth": 1.83,
@@ -42,7 +42,7 @@
                 }, {
                     "type": "teaser",                  
                     "layout": "8,0,4,6", 
-		    "image": "https://gachi.gay/aEDEq",
+		    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/bg.jpg",
 	            "badge": "Мурчик",
 		    "action": "success:{Мяу...}"                                         
                 }]
