@@ -24,10 +24,10 @@
                 }, {
                     "type": "default",
                     "layout": "4,0,4,3",
-                    "title": "ICVA",
-		    "titleFooter": "IPTV",                    
-                    "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/icva.png",
-		    "action": "link:http://icva.mx/",           
+                    "title": "ForkPlayer",
+		    "titleFooter": ":)",                    
+                    "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/forknew.png",
+		    "action": "link:http://browser.appinfo.su/",           
                     "imageFiller": "width-center"
                 }, {
                     "type": "default",
