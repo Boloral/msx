@@ -24,10 +24,10 @@
                 }, {
                     "type": "default",
                     "layout": "4,0,4,3",
-                    "title": "ForkPlayer",
-		    "titleFooter": ":)",                    
-                    "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/forknew.png",
-		    "action": "link:http://browser.appinfo.su/",           
+                    "title": "Prisma TV",
+		    "titleFooter": "Аналог Lampa",                    
+                    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/prisma.png",
+		    "action": "link:http://prisma.ws/",           
                     "imageFiller": "width-center"
                 }, {
                     "type": "default",
