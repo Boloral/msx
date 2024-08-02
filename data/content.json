@@ -27,7 +27,7 @@
                     "title": "Prisma TV",
 		    "titleFooter": "Аналог Lampa",                    
                     "image": "https://raw.githubusercontent.com/boloral/msx/main/img/prisma.png",
-		    "action": "link:http://prisma.ws/",           
+		    "action": "link:https://prisma.ws/",           
                     "imageFiller": "width-center"
                 }, {
                     "type": "default",
