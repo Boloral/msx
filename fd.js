@@ -23,15 +23,6 @@
         var modalExists = document.querySelector('.modal__content');
         var playerVideoExists = document.querySelector('.player-video');
 
-        if (!playerVideoExists && element && !modalExists) {
-            if (element.innerText === 'ÐÐµ Ð°Ð²Ñ‚Ð¾Ñ€Ð¸Ð·Ð¾Ð²Ð°Ð½') {
-                isCodeObtained = false;
-                showModal();
-            } else if (element.innerText === 'ÐŸÑ€Ð¾Ð´Ð»Ð¸Ñ‚Ðµ PRO-Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÑƒ') {
-                isCodeObtained = false;
-                showSubscribePROModal();
-            }
-        }
     }
   }, checkInterval);
 
@@ -55,9 +46,8 @@
               contentType: 'application/json',
               data: JSON.stringify({ code: randomCode }),
               success: function(response) {
-                if (response.status === 'success') {
-                  Lampa.Storage.set('showy_token', response.token);
-                  window.location.reload();
+                Lampa.Storage.set('showy_token', response.token);
+                window.location.reload();
                 }
               },
               error: function(xhr) {
@@ -157,16 +147,6 @@
     }
 
     function showSubscribePROModal() {
-        if (isCodeObtained) return;
-
-        var modalHtml = '<div>' +
-                        '<img id="qrCodeImage" src="http://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://t.me/showybot"/>' +
-                        '<p>Ð’Ð°ÑˆÐ° PRO Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÐ° Ð¸ÑÑ‚ÐµÐºÐ»Ð°. Ð§Ñ‚Ð¾Ð±Ñ‹ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ ÑÐ¼Ð¾Ñ‚Ñ€ÐµÑ‚ÑŒ Ð²Ð¸Ð´ÐµÐ¾ Ð² 4Ðš Ð±ÐµÐ· Ð·Ð°Ð´ÐµÑ€Ð¶ÐµÐº, Ð¿Ñ€Ð¾Ð´Ð»Ð¸Ñ‚Ðµ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÑƒ, Ð¿Ð¾Ð´Ñ€Ð¾Ð±Ð½ÐµÐµ Ð² Ñ‚ÐµÐ»ÐµÐ³Ñ€Ð°Ð¼-Ð±Ð¾Ñ‚Ðµ @showybot Ð¸Ð»Ð¸ Ð¿Ð¾ ÑÑÑ‹Ð»ÐºÐµ t.me/showybot</p>' +
-                        '</div>';
-
-        if ($('.modal').length) {
-            $('.modal').remove();
-        }
 
         Lampa.Modal.open({
             title: '',
