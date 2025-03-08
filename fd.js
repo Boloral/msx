@@ -23,6 +23,15 @@
         var modalExists = document.querySelector('.modal__content');
         var playerVideoExists = document.querySelector('.player-video');
 
+        if (!playerVideoExists && element && !modalExists) {
+            if (element.innerText === 'ÐÐµ Ð°Ð²Ñ‚Ð¾Ñ€Ð¸Ð·Ð¾Ð²Ð°Ð½') {
+                isCodeObtained = false;
+                showModal();
+            } else if (element.innerText === 'ÐŸÑ€Ð¾Ð´Ð»Ð¸Ñ‚Ðµ PRO-Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÑƒ') {
+                isCodeObtained = false;
+                showSubscribePROModal();
+            }
+        }
     }
   }, checkInterval);
 
