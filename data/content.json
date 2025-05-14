@@ -35,7 +35,7 @@
                     "titleFooter": "Phone",
                     "title": "WebVideoCaster",                  
                     "image": "https://raw.githubusercontent.com/boloral/msx/main/img/webvideo.png",
-		    "action": "link:https://www.speedtest.net/",
+		    "action": "link:https://fast.com/",
                     "imageFiller": "width-center",
                     "imageWidth": 1.83,
 	            "color": "rgb(29, 31, 32)"     
