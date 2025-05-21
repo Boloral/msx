@@ -10,7 +10,7 @@
                     "badge": "Like",                  
                     "tagColor": "msx-red",
                     "title": "Lampa",                 
-                    "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/lampa.jpg",
+                    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/lampa.png",
                     "imageFiller": "height-left",
 		    "action": "link:http://lampa.mx/"
                 }, {
@@ -25,7 +25,7 @@
                     "type": "default",
                     "layout": "4,0,4,3",
                     "title": "Sweet TV",                  
-                    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/prisma.png",
+                    "image": "https://raw.githubusercontent.com/boloral/msx/main/img/sweet.png",
 		    "action": "link:https://smarttv.sweet.tv",           
                     "imageFiller": "width-center"
                 }, {
