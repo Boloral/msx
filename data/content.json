@@ -24,10 +24,9 @@
                 }, {
                     "type": "default",
                     "layout": "4,0,4,3",
-                    "title": "Prisma TV",
-		    "titleFooter": "Аналог Lampa",                    
+                    "title": "Sweet TV",                  
                     "image": "https://raw.githubusercontent.com/boloral/msx/main/img/prisma.png",
-		    "action": "link:http://prisma.ws/",           
+		    "action": "link:https://smarttv.sweet.tv",           
                     "imageFiller": "width-center"
                 }, {
                     "type": "default",
