@@ -12,7 +12,7 @@
                     "title": "Lampa",                 
                     "image": "https://raw.githubusercontent.com/boloral/msx/main/img/lampa.png",
                     "imageFiller": "height-left",
-		    "action": "link:http://lampocka.koyeb.app"
+		    "action": "link:http://lampa.mx"
                 }, {
                     "type": "default",
                     "layout": "4,3,4,2",
